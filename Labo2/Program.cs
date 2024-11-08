@@ -157,7 +157,7 @@ public class MainCl// ПАТАМУ ЧТА СОВПАДАЕТ! НЕ МЕНЯТЬ
 
         student2.AddExams(
             new Exam("Программирование", 3, new DateTime(2023, 6, 16)),
-            new Exam("Химия", 4, new DateTime(2023, 6, 17))
+            new Exam("Бухгалтерский учет", 4, new DateTime(2023, 6, 17))
         );
         Console.WriteLine(student2.ToFullString());
     }
